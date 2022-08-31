@@ -1,0 +1,166 @@
+{
+  "id": "68b75c15-a5f7-4f48-bd9c-3c75e2a2f765",
+  "version": "2.0",
+  "name": "first_demo",
+  "url": "https://ceshiren.com",
+  "tests": [{
+    "id": "1c59072a-e1f8-427f-9c75-458187728b87",
+    "name": "search_test",
+    "commands": [{
+      "id": "453d214b-50f2-452d-8437-0b92ee8c6ff5",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "06197c15-d1e1-4903-8890-d67b6e200a4e",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1296x705",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "991a437c-174e-4a78-973b-cc1d1cfb81ea",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.d-button-label:nth-child(2)",
+      "targets": [
+        ["css=.d-button-label:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='ember7']/header/div/div/div[2]/span/button[2]/span", "xpath:idRelative"],
+        ["xpath=//button[2]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0cbc7d29-0202-441b-ad11-b2ce5fc1702d",
+      "comment": "",
+      "command": "click",
+      "target": "id=search-term",
+      "targets": [
+        ["id=search-term", "id"],
+        ["css=#search-term", "css:finder"],
+        ["xpath=//input[@id='search-term']", "xpath:attributes"],
+        ["xpath=//div[@id='ember7']/header/div/div/div[2]/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "296bae9f-2e15-4b27-a441-e93a75f08a81",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.d-button-label:nth-child(2)",
+      "targets": [
+        ["css=.d-button-label:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='ember7']/header/div/div/div[2]/span/button[2]/span", "xpath:idRelative"],
+        ["xpath=//button[2]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cd446126-af40-4f77-8919-519c0dff2068",
+      "comment": "",
+      "command": "click",
+      "target": "css=.d-icon-search",
+      "targets": [
+        ["css=.d-icon-search", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "9c9eab03-ad24-47f6-a863-92bc87fa9185",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=技术分享 | 接口自动化测试如何进行认证？",
+      "targets": [
+        ["linkText=技术分享 | 接口自动化测试如何进行认证？", "linkText"],
+        ["css=#ember70 .title", "css:finder"],
+        ["xpath=//a[contains(text(),'技术分享 | 接口自动化测试如何进行认证？')]", "xpath:link"],
+        ["xpath=//tr[@id='ember70']/td/span/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/t/topic/22251')]", "xpath:href"],
+        ["xpath=//tr[4]/td/span/a", "xpath:position"],
+        ["xpath=//a[contains(.,'技术分享 | 接口自动化测试如何进行认证？')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0a084d58-901b-408a-95c1-9b6572ce67b8",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=技术分享 | 接口自动化测试如何进行认证？",
+      "targets": [
+        ["linkText=技术分享 | 接口自动化测试如何进行认证？", "linkText"],
+        ["css=#ember70 .title", "css:finder"],
+        ["xpath=//a[contains(text(),'技术分享 | 接口自动化测试如何进行认证？')]", "xpath:link"],
+        ["xpath=//tr[@id='ember70']/td/span/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/t/topic/22251')]", "xpath:href"],
+        ["xpath=//tr[4]/td/span/a", "xpath:position"],
+        ["xpath=//a[contains(.,'技术分享 | 接口自动化测试如何进行认证？')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "813ab2e4-5f58-4f13-8f41-f669e5b4fb1f",
+    "name": "search_test(1)",
+    "commands": [{
+      "id": "080a3b07-4f55-46da-b6c9-957c5b2c3e1b",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2955b3b1-cbd2-4030-9a96-9a3af12f43ba",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1296x705",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "06bd88dd-b86f-445e-9f7c-effccb47624a",
+      "comment": "",
+      "command": "click",
+      "target": "id=search-term",
+      "targets": [
+        ["id=search-term", "id"],
+        ["css=#search-term", "css:finder"],
+        ["xpath=//input[@id='search-term']", "xpath:attributes"],
+        ["xpath=//div[@id='ember7']/header/div/div/div[2]/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "29e24242-9acc-4213-a9c5-71a7fe1b0d3a",
+      "comment": "",
+      "command": "type",
+      "target": "id=search-term",
+      "targets": [
+        ["id=search-term", "id"],
+        ["css=#search-term", "css:finder"],
+        ["xpath=//input[@id='search-term']", "xpath:attributes"],
+        ["xpath=//div[@id='ember7']/header/div/div/div[2]/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "selenium"
+    }, {
+      "id": "5002f57c-645c-4087-aa25-3d0f4e0044bf",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=search-term",
+      "targets": [
+        ["id=search-term", "id"],
+        ["css=#search-term", "css:finder"],
+        ["xpath=//input[@id='search-term']", "xpath:attributes"],
+        ["xpath=//div[@id='ember7']/header/div/div/div[2]/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }]
+  }],
+  "suites": [{
+    "id": "7a44c06b-47a3-48ed-b0cb-f1e45ef7b07f",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://ceshiren.com/"],
+  "plugins": []
+}
